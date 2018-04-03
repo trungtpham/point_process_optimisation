@@ -9,7 +9,7 @@
 - Run demo.m
  
 ### Citation:
-If you use this code, please consider citing the following papers:
+If you use this code, please consider citing the following paper:
 
     @InProceedings{Pham_2016_CVPR,
     author = {Pham, Trung T. and Hamid Rezatofighi, Seyed and Reid, Ian and Chin, Tat-Jun},
