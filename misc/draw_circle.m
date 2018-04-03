@@ -1,0 +1,11 @@
+function draw_circle(x,y,r, c, w)
+%x and y are the coordinates of the center of the circle
+%r is the radius of the circle
+%0.01 is the angle step, bigger values will draw the circle faster but
+%you might notice imperfections (not very smooth)
+%c is color and w is linewidth
+ang=0:0.01:2*pi; 
+xp=r*cos(ang);
+yp=r*sin(ang);
+plot(x+xp,y+yp, 'color', c, 'LineWidth', w);
+end

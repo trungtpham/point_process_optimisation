@@ -1,0 +1,4 @@
+addpath('misc')
+addpath('source')
+eval()
+eval([mex])
